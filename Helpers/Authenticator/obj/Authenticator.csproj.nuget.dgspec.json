@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/crifa/Downloads/Examples-dotNetCore-master/Helpers/Authenticator/Authenticator.csproj": {}
+  },
+  "projects": {
+    "/Users/crifa/Downloads/Examples-dotNetCore-master/Helpers/Authenticator/Authenticator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/crifa/Downloads/Examples-dotNetCore-master/Helpers/Authenticator/Authenticator.csproj",
+        "projectName": "Authenticator",
+        "projectPath": "/Users/crifa/Downloads/Examples-dotNetCore-master/Helpers/Authenticator/Authenticator.csproj",
+        "packagesPath": "/Users/crifa/.nuget/packages/",
+        "outputPath": "/Users/crifa/Downloads/Examples-dotNetCore-master/Helpers/Authenticator/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/crifa/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "/Users/crifa/Documents/Syncfusion/16.2.0.41/Xamarin/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "DocuWarePlatformApi": {
+              "target": "Package",
+              "version": "[7.2.11087, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

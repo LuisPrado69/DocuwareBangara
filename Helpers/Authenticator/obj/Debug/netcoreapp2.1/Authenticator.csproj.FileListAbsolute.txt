@@ -1,0 +1,9 @@
+/Users/crifa/Downloads/Examples-dotNetCore-master/Helpers/Authenticator/bin/Debug/netcoreapp2.1/Authenticator.deps.json
+/Users/crifa/Downloads/Examples-dotNetCore-master/Helpers/Authenticator/bin/Debug/netcoreapp2.1/Authenticator.dll
+/Users/crifa/Downloads/Examples-dotNetCore-master/Helpers/Authenticator/bin/Debug/netcoreapp2.1/Authenticator.pdb
+/Users/crifa/Downloads/Examples-dotNetCore-master/Helpers/Authenticator/obj/Debug/netcoreapp2.1/Authenticator.csprojAssemblyReference.cache
+/Users/crifa/Downloads/Examples-dotNetCore-master/Helpers/Authenticator/obj/Debug/netcoreapp2.1/Authenticator.AssemblyInfoInputs.cache
+/Users/crifa/Downloads/Examples-dotNetCore-master/Helpers/Authenticator/obj/Debug/netcoreapp2.1/Authenticator.AssemblyInfo.cs
+/Users/crifa/Downloads/Examples-dotNetCore-master/Helpers/Authenticator/obj/Debug/netcoreapp2.1/Authenticator.csproj.CoreCompileInputs.cache
+/Users/crifa/Downloads/Examples-dotNetCore-master/Helpers/Authenticator/obj/Debug/netcoreapp2.1/Authenticator.dll
+/Users/crifa/Downloads/Examples-dotNetCore-master/Helpers/Authenticator/obj/Debug/netcoreapp2.1/Authenticator.pdb
