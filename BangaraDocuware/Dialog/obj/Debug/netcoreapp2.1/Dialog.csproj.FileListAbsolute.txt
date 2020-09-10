@@ -27,3 +27,16 @@
 /Users/crifa/Downloads/Examples-dotNetCore-master/BangaraDocuware/Dialog/obj/Debug/netcoreapp2.1/Dialog.dll
 /Users/crifa/Downloads/Examples-dotNetCore-master/BangaraDocuware/Dialog/obj/Debug/netcoreapp2.1/Dialog.pdb
 /Users/crifa/Downloads/Examples-dotNetCore-master/BangaraDocuware/Dialog/obj/Debug/netcoreapp2.1/Dialog.genruntimeconfig.cache
+C:\Users\LUCHO\Documents\GitHub\DocuwareBangara\BangaraDocuware\Dialog\bin\Debug\netcoreapp2.1\Dialog.deps.json
+C:\Users\LUCHO\Documents\GitHub\DocuwareBangara\BangaraDocuware\Dialog\bin\Debug\netcoreapp2.1\Dialog.runtimeconfig.json
+C:\Users\LUCHO\Documents\GitHub\DocuwareBangara\BangaraDocuware\Dialog\bin\Debug\netcoreapp2.1\Dialog.runtimeconfig.dev.json
+C:\Users\LUCHO\Documents\GitHub\DocuwareBangara\BangaraDocuware\Dialog\bin\Debug\netcoreapp2.1\Dialog.dll
+C:\Users\LUCHO\Documents\GitHub\DocuwareBangara\BangaraDocuware\Dialog\bin\Debug\netcoreapp2.1\Dialog.pdb
+C:\Users\LUCHO\Documents\GitHub\DocuwareBangara\BangaraDocuware\Dialog\bin\Debug\netcoreapp2.1\Authenticator.dll
+C:\Users\LUCHO\Documents\GitHub\DocuwareBangara\BangaraDocuware\Dialog\bin\Debug\netcoreapp2.1\Authenticator.pdb
+C:\Users\LUCHO\Documents\GitHub\DocuwareBangara\BangaraDocuware\Dialog\obj\Debug\netcoreapp2.1\Dialog.csprojAssemblyReference.cache
+C:\Users\LUCHO\Documents\GitHub\DocuwareBangara\BangaraDocuware\Dialog\obj\Debug\netcoreapp2.1\Dialog.AssemblyInfoInputs.cache
+C:\Users\LUCHO\Documents\GitHub\DocuwareBangara\BangaraDocuware\Dialog\obj\Debug\netcoreapp2.1\Dialog.AssemblyInfo.cs
+C:\Users\LUCHO\Documents\GitHub\DocuwareBangara\BangaraDocuware\Dialog\obj\Debug\netcoreapp2.1\Dialog.csproj.CopyComplete
+C:\Users\LUCHO\Documents\GitHub\DocuwareBangara\BangaraDocuware\Dialog\obj\Debug\netcoreapp2.1\Dialog.dll
+C:\Users\LUCHO\Documents\GitHub\DocuwareBangara\BangaraDocuware\Dialog\obj\Debug\netcoreapp2.1\Dialog.pdb

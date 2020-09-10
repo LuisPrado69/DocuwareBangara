@@ -7,3 +7,11 @@
 /Users/crifa/Downloads/Examples-dotNetCore-master/Helpers/Authenticator/obj/Debug/netcoreapp2.1/Authenticator.csproj.CoreCompileInputs.cache
 /Users/crifa/Downloads/Examples-dotNetCore-master/Helpers/Authenticator/obj/Debug/netcoreapp2.1/Authenticator.dll
 /Users/crifa/Downloads/Examples-dotNetCore-master/Helpers/Authenticator/obj/Debug/netcoreapp2.1/Authenticator.pdb
+C:\Users\LUCHO\Documents\GitHub\DocuwareBangara\Helpers\Authenticator\bin\Debug\netcoreapp2.1\Authenticator.deps.json
+C:\Users\LUCHO\Documents\GitHub\DocuwareBangara\Helpers\Authenticator\bin\Debug\netcoreapp2.1\Authenticator.dll
+C:\Users\LUCHO\Documents\GitHub\DocuwareBangara\Helpers\Authenticator\bin\Debug\netcoreapp2.1\Authenticator.pdb
+C:\Users\LUCHO\Documents\GitHub\DocuwareBangara\Helpers\Authenticator\obj\Debug\netcoreapp2.1\Authenticator.csprojAssemblyReference.cache
+C:\Users\LUCHO\Documents\GitHub\DocuwareBangara\Helpers\Authenticator\obj\Debug\netcoreapp2.1\Authenticator.AssemblyInfoInputs.cache
+C:\Users\LUCHO\Documents\GitHub\DocuwareBangara\Helpers\Authenticator\obj\Debug\netcoreapp2.1\Authenticator.AssemblyInfo.cs
+C:\Users\LUCHO\Documents\GitHub\DocuwareBangara\Helpers\Authenticator\obj\Debug\netcoreapp2.1\Authenticator.dll
+C:\Users\LUCHO\Documents\GitHub\DocuwareBangara\Helpers\Authenticator\obj\Debug\netcoreapp2.1\Authenticator.pdb

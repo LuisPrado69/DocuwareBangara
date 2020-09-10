@@ -1,10 +1,10 @@
 ﻿using DocuWare.Platform.ServerClient;
-using System.Collections.Generic;
-using System.Net.Http.Headers;
 using DocuWare.Services.Http;
-using System.Linq;
-using System.IO;
 using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Net.Http.Headers;
 
 namespace DocuWare.SDK.Samples.dotNetCore.Examples
 {
@@ -28,7 +28,9 @@ namespace DocuWare.SDK.Samples.dotNetCore.Examples
                 if (organization == null)
                 {
                     Console.WriteLine("No organization found");
-                } else {
+                }
+                else
+                {
                     Query(organization, fileCabinetId, dialogId);
                     if (result_list.Count() > 0)
                     {
@@ -46,7 +48,7 @@ namespace DocuWare.SDK.Samples.dotNetCore.Examples
 
         public static void Query(Organization organization, string fileCabinetId, string dialogId)
         {
-            Console.WriteLine("Query"); 
+            Console.WriteLine("Query");
             DialogExpression dialogExpression = new DialogExpression()
             {
                 Operation = DialogExpressionOperation.And,
@@ -72,7 +74,9 @@ namespace DocuWare.SDK.Samples.dotNetCore.Examples
                 if (dialogInfos == null)
                 {
                     message = "DialogInfos is null!";
-                }else{
+                }
+                else
+                {
                     DialogInfo dialog = dialogInfos.Dialog.FirstOrDefault(d => d.Id == dialogId);
 
                     if (dialog == null)
@@ -110,7 +114,9 @@ namespace DocuWare.SDK.Samples.dotNetCore.Examples
             if (fileCabinet == null)
             {
                 Console.WriteLine("FileCabinet is null!");
-            } else {
+            }
+            else
+            {
                 Platform.ServerClient.Document document = null;
                 DialogExpression dialogExpression = new DialogExpression()
                 {
@@ -129,12 +135,16 @@ namespace DocuWare.SDK.Samples.dotNetCore.Examples
                 if (dialogInfos == null)
                 {
                     Console.WriteLine("Dialog Info(s) is null!");
-                } else {
+                }
+                else
+                {
                     DialogInfo dialog = dialogInfos.Dialog.FirstOrDefault(d => d.Id == queryDialogId);
                     if (dialog == null)
                     {
                         Console.WriteLine("Dialog is null!");
-                    } else {
+                    }
+                    else
+                    {
                         DocumentsQueryResult documentsQueryResult = dialog.GetDialogFromSelfRelation().GetDocumentsResult(dialogExpression);
                         Console.WriteLine("Query Result");
                         document = documentsQueryResult.Items.FirstOrDefault();
@@ -144,7 +154,9 @@ namespace DocuWare.SDK.Samples.dotNetCore.Examples
                 if (document == null)
                 {
                     Console.WriteLine("Document not exist!");
-                } else {
+                }
+                else
+                {
                     document = document.GetDocumentFromSelfRelation();
                     DeserializedHttpResponse<Stream> deserializedHttpResponse = document.PostToFileDownloadRelationForStreamAsync(new FileDownload()
                     {
@@ -156,12 +168,14 @@ namespace DocuWare.SDK.Samples.dotNetCore.Examples
                     long? ContentLength = httpContentHeaders.ContentLength;
                     Stream stream = deserializedHttpResponse.Content;
                     // TODO: Pending path to server to move public folder.
-                    // using (FileStream fileStream = File.Create(Path.Combine(@"C:\Temp\", FileName)))
-                    string curFile = @"/Users/crifa/code/score/public/" + FileName;
+                    string curFile = @"C:/Users/LUCHO/Documents/Docuware/" + FileName;
+                    // string curFile = @"/Users/crifa/code/score/public/" + FileName;
                     if (File.Exists(curFile))
                     {
                         Console.WriteLine("Document exist, don't downloaded!");
-                    } else {
+                    }
+                    else
+                    {
                         Console.WriteLine("Document downloaded succesfuly");
                         using (FileStream fileStream = File.Create(Path.Combine(curFile)))
                         {

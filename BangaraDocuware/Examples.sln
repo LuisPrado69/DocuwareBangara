@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.852
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authenticator", "..\Helpers\Authenticator\Authenticator.csproj", "{64E82AA7-264A-4A41-86C8-EC3890380959}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dialog", "Dialog\Dialog.csproj", "{D7A718D2-33AC-47DA-B0BE-5177697F003B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BangaraDocuwareWCF", "..\..\..\..\source\repos\BangaraDocuwareWCF\BangaraDocuwareWCF.csproj", "{99E57FFE-6159-4A9A-AD38-F3AF0580A674}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D7A718D2-33AC-47DA-B0BE-5177697F003B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7A718D2-33AC-47DA-B0BE-5177697F003B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7A718D2-33AC-47DA-B0BE-5177697F003B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99E57FFE-6159-4A9A-AD38-F3AF0580A674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99E57FFE-6159-4A9A-AD38-F3AF0580A674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99E57FFE-6159-4A9A-AD38-F3AF0580A674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99E57FFE-6159-4A9A-AD38-F3AF0580A674}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
