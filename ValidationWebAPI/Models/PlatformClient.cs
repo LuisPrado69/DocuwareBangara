@@ -269,20 +269,17 @@ namespace ValidationWebAPI.Models
         public void unzipFile(string FileName, string FieldValue, string location)
         {
             string[] words = FileName.Split('.');
-            if (words[1] == "zip")
+            string locationZip = location + "/" + FileName;
+            string locationResult = location + "/" + words[0];
+            Directory.CreateDirectory(locationResult);
+            string zipPath = locationZip;
+            string extractPath = locationResult;
+            using (ZipArchive archive = ZipFile.OpenRead(zipPath))
             {
-                string locationZip = location + "/" + FileName;
-                string locationResult = location + "/" + words[0];
-                Directory.CreateDirectory(locationResult);
-                string zipPath = locationZip;
-                string extractPath = locationResult;
-                using (ZipArchive archive = ZipFile.OpenRead(zipPath))
+                foreach (ZipArchiveEntry entry in archive.Entries)
                 {
-                    foreach (ZipArchiveEntry entry in archive.Entries)
                     {
-                        {
-                            entry.ExtractToFile(Path.Combine(extractPath, entry.FullName), true);
-                        }
+                        entry.ExtractToFile(Path.Combine(extractPath, entry.FullName), true);
                     }
                 }
             }

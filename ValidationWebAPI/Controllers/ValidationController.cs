@@ -23,7 +23,8 @@ namespace ValidationWebAPI.Controllers
                 string FieldName = dlgInfos.FieldName;
                 string FieldValue = dlgInfos.FieldValue;
                 string message = "";
-                string locationResult = @"C:/Users/LUCHO/Documents/Docuware/" + FieldValue;
+                string locationResult = @"/Users/crifa/code/score/public/" + FieldValue;
+                // string locationResult = @"C:/Users/LUCHO/Documents/Docuware/" + FieldValue;
                 List<string> resultFolders = new List<string>();
                 List<string> result = new List<string>();
                 platformClient = new PlatformClient(serverUrl, OrganizationName, UserName, userPassword);
@@ -36,7 +37,7 @@ namespace ValidationWebAPI.Controllers
                     },
                     SortOrder = new List<SortedField>
                     {
-                        SortedField.Create("CEDULA", SortDirection.Desc)
+                        SortedField.Create(FieldName, SortDirection.Desc)
                     }
                 };
                 var fieldList = platformClient.GetDocumentsByQuery(dlgInfos.FileCabinetGuid, false, query);
@@ -51,15 +52,29 @@ namespace ValidationWebAPI.Controllers
                     }
                     foreach (string file in resultFolders)
                     {
-                        platformClient.unzipFile(file, FieldValue, locationResult);
+                        string[] words = file.Split('.');
+                        if (words[1] == "zip")
+                        {
+                            platformClient.unzipFile(file, FieldValue, locationResult);
+                        }
                     }
                     foreach (string file in resultFolders)
                     {
-                        string[] test = platformClient.ProcessDirectory(locationResult, file);
-                        foreach (string filePath in test)
+                        string[] words = file.Split('.');
+                        if (words[1] == "zip")
                         {
-                            result.Add(filePath);
+                            string[] test = platformClient.ProcessDirectory(locationResult, file);
+                            foreach (string filePath in test)
+                            {
+                                string pathCharacter = filePath.Replace("/Users/crifa/code/score/public", "");
+                                result.Add(pathCharacter);
+                            }
                         }
+                        else
+                        {
+                            result.Add("/" + FieldValue + "/"+ file);
+                        }
+
                     }
                 }
                 else
